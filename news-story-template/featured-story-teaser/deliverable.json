@@ -1,0 +1,12 @@
+{
+    "entrypoints": [
+      {
+        "name": "Teaser A",
+        "file": "teaser-a.html"
+      },
+      {
+        "name": "Teaser B",
+        "file": "teaser-b.html"
+      }
+    ]
+  }
