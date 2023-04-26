@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="background">
+        <!-- <img src="images/pexels-photo-1853951.jpeg" class="background"> -->
+        <div class="status">
+            <div class="time">
+                <p style="color: white; margin: 0;">
+                    <label for="Timer">Time Left</label>
+                    <input id="Timer" type="text" value="" readonly/>
+                </p>
+            </div>  
+            <div class="note">
+                <img src="images/note.png" id="note">
+                <div class="wrap">
+                    <a href="#pop_info_1" class="btn_open">
+                    <button type="button" id="menu">
+                        <div>
+                        <span>Note</span>
+                        <p class="arrow_box_1">Things to do</p>
+                        </div>
+                    </button>  
+                    </a>
+
+                    <div id="pop_info_1" class="pop_wrap" style="display:none;">
+                        <div class="pop_inner">
+                        <p class="dsc">Things to do:</p>
+                                <ul>
+                                <li><input id="check-btn" type="checkbox"/><label for="check-btn">Collect the bottle</label></li>
+                                <li><input id="check-btn" type="checkbox"/><label for="check-btn">Find something sharp</label></li>
+                                <li><input id="check-btn" type="checkbox"/><label for="check-btn">Find your phone</label></li>
+                                </ul>
+                        <button type="button" class="btn_close">Close</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="bag">
+                <img src="images/bag.png" id="bag">
+                <div class="wrap">
+                    <a href="#pop_info_2" class="btn_open">
+                    <button type="button" id="menu">
+                        <div>
+                        <span>Bag</span>
+                        <p class="arrow_box_2">Inventory</p>
+                        </div>
+                    </button>  
+                    </a>
+
+                    <div id="pop_info_2" class="pop_wrap" style="display:none;">
+                        <div class="pop_inner" id="pop_2">
+                        <p class="dsc">Inventory:
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td id="inven_pillow"></td>
+                                    <td id="inven_bear"></td>
+                                </tr>
+                                <tr>
+                                    <td id="inven_bottle"></td>
+                                    <td id="inven_t"></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                        <button type="button" class="btn_close">Close</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div class="blood">
+            <img src="images/blood.png" class="one">
+            <p class="blood_text">
+                Broken furniture and bloodstains on the wall suggest that something bad has happened in the house.
+            </p>
+            <img src="images/blood-2.png" class="two">
+            <p class="blood_text">
+                Broken furniture and bloodstains on the wall suggest that something bad has happened in the house.
+            </p>
+        </div>
+        <div class="bed">
+                <img src="images/pillow.png" class="pillow">
+                <div class="pillow_text">
+                    <h3>Pillow</h3>
+                    <p>
+                        It seems that something is hiding inside the pillow.
+                    </p>
+                </div>
+
+            <img src="images/bear.png" class="bear">
+                <div class="bear_text">
+                    <h3>Bear</h3>
+                    <p>
+                        It seems that something is hiding inside the bear.<br>
+                        You may need something sharp to tear it.
+                    </p>
+                </div>
+        </div>
+
+            <img src="images/Empty-Glass-Bottle-5ml_450x450@2x.webp" class="bottle">
+            <div class="bottle_text">
+                <h3>Empty Bottle</h3>
+                <p>
+                    This is the bottle that someone gave you last night.<br>
+                    It could be nice evidence for proving your innocence.
+                </p>
+            </div>
+            <img src="images/tool.png" class="tool">
+            <div class="tool_text">
+                <h3>Toolbox</h3>
+                <p>
+                    This is a toolbox.<Br>
+                    You may find something sharp.
+                </p>
+            </div>
+    </div>
+
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
